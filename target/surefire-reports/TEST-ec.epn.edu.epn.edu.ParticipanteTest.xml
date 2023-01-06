@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="ec.epn.edu.epn.edu.ParticipanteTest" time="0.352" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="ec.epn.edu.epn.edu.ParticipanteTest" time="0.409" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -66,10 +66,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[0]" time="0.303"/>
-  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[1]" time="0.006"/>
-  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[2]" time="0.01"/>
-  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[3]" time="0.009"/>
-  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[4]" time="0.009"/>
-  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[5]" time="0.015"/>
+  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[0]" time="0.372"/>
+  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[1]" time="0.002"/>
+  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[2]" time="0.006"/>
+  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[3]" time="0.006"/>
+  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[4]" time="0.013"/>
+  <testcase classname="ec.epn.edu.epn.edu.ParticipanteTest" name="given_credentials_when_login_then_ok[5]" time="0.01"/>
 </testsuite>
