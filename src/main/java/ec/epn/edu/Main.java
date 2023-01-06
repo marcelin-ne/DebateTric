@@ -24,6 +24,10 @@ public class Main {
             System.out.println("\n\tCambio para probar Jetkins: ");
             System.out.println("\n\tElegir opción: ");
             opc=sc.nextInt();
+
+
+            System.out.println("\n\tSi se imprime esto todo funciona :v : ");
+
             switch (opc){
                 case 1:
                     System.out.println("Ingresar datos del participante");
