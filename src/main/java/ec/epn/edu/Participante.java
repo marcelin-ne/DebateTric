@@ -3,7 +3,6 @@ package ec.epn.edu;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.SQLOutput;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b790540e-c1bc-46c3-925b-1951595f374f" name="Changes" comment="Inicio">
+    <list default="true" id="b790540e-c1bc-46c3-925b-1951595f374f" name="Changes" comment="Generacion de .jar en Target">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Participante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/epn/edu/ParticipanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/epn/edu/epn/edu/ParticipanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/epn/edu/ParticipanteTestPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/epn/edu/epn/edu/ParticipanteTestPassword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +43,18 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ec" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.epn.edu.Main" />
+      <option name="MAIN_CLASS_NAME" value="ec.Main" />
       <module name="DebateTric" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ec.epn.edu.*" />
+          <option name="PATTERN" value="ec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +78,8 @@
       <updated>1672893057736</updated>
       <workItem from="1672893059534" duration="3013000" />
       <workItem from="1672964928050" duration="637000" />
-      <workItem from="1672971782359" duration="778000" />
+      <workItem from="1672971782359" duration="2346000" />
+      <workItem from="1673014321142" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <created>1672965283328</created>
@@ -78,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672965283328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cambio para pruebas Jetkins">
+      <created>1672978928617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672978928617</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Generacion de .jar en Target">
+      <created>1672979715578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672979715578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio" />
+    <MESSAGE value="Cambio para pruebas Jetkins" />
+    <MESSAGE value="Generacion de .jar en Target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generacion de .jar en Target" />
   </component>
 </project>

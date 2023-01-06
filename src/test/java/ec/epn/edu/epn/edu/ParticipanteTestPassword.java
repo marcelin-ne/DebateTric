@@ -1,5 +1,7 @@
-package ec.epn.edu;
+package ec.epn.edu.epn.edu;
 
+import ec.epn.edu.Conexion;
+import ec.epn.edu.Participante;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
