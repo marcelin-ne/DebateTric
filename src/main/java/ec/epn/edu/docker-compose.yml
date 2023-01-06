@@ -1,0 +1,31 @@
+version: '2'
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    networks:
+      - jenkins
+    volumes:
+      - /var/jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+  postgres:
+    platform: linux/x86_64
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    networks:
+      - jenkins
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonarpasswd
+    volumes:
+      - /var/postgres-data:/var/lib/postgresql/data
+  
+     
+
+networks:
+  jenkins:
+

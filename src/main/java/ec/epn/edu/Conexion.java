@@ -10,6 +10,12 @@ public class Conexion {
 
     public static void initConn() {
         try {
+            Class.forName("org.postgresql.Driver");
+        } catch (ClassNotFoundException e) {
+            System.out.println("ERROR*****");
+            System.out.println(e.getMessage());
+        }
+        try {
             connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/debate", user, pass);
             //System.out.println("Conectado correctamente");
         } catch (Exception e) {
