@@ -8,7 +8,7 @@ services:
     networks:
       - jenkins
     volumes:
-      - /var/jenkins_home:/var/jenkins_home
+      - "./jenkins-data:/var/jenkins_home"
       - /var/run/docker.sock:/var/run/docker.sock
   postgres:
     platform: linux/x86_64
@@ -19,8 +19,10 @@ services:
     networks:
       - jenkins
     environment:
-      POSTGRES_USER: sonar
-      POSTGRES_PASSWORD: sonarpasswd
+      POSTGRES_USER: marcelinne
+      POSTGRES_PASSWORD: 1206copo
+      POSTGRES_DB: debate
+
     volumes:
       - /var/postgres-data:/var/lib/postgresql/data
   

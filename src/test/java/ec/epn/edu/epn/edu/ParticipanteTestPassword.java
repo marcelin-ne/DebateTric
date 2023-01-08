@@ -1,6 +1,5 @@
 package ec.epn.edu.epn.edu;
 
-import ec.epn.edu.Conexion;
 import ec.epn.edu.Participante;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,15 +14,14 @@ import static org.junit.Assert.*;
 public class ParticipanteTestPassword {
 
         Participante p;
-        Conexion con;
+
         private String contrasenia;
         private boolean expected;
         @Before
         public void setUp(){
             System.out.println("SetUp()");
             p=new Participante();
-            con=new Conexion();
-            con.initConn();
+
         }
 
         @Parameterized.Parameters
